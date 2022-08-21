@@ -1,3 +1,10 @@
+/*This project takes a user input and checks to see if it is a palindrome. 
+It will automatically remove any non-alphanumeric characters.
+*/
+
+//Insert a string below to check to see if it is a palindrome
+palindrome("almostomla");
+
 function palindrome(str) {
   //change string to lowercase
   str = str.toLowerCase();
@@ -25,6 +32,3 @@ function palindrome(str) {
   }
 
 }
-
-
-palindrome("almostomla");
