@@ -49,7 +49,7 @@ function convertToRoman(num) {
       arr.push('IV');
       num -= 4;
     }
-    if (num < 4 && num > 0) {
+    else (num < 4 && num > 0) {
       arr.push('I');
       num -= 1;
     }
