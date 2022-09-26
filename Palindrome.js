@@ -21,14 +21,16 @@ function palindrome(str) {
 
   //convert to string
   const forwardStr = forward.toString();
-  const reverseStr = reverse.toString()
+  const reverseStr = reverse.toString();
 
   //compare
   if (forwardStr === reverseStr) {
-    return true;
+    return true,
+    console.log('true');
   }
   else {
-    return false;
+    return false,
+    console.log('false');
   }
 
 }
